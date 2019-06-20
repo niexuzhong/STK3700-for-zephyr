@@ -1,0 +1,17 @@
+identifier: efm32gg_slstk3700
+name: EFM32GG-SLSTK3700
+type: mcu
+arch: arm
+ram: 128
+flash: 1024
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+supported:
+  - gpio
+  - uart
+testing:
+  ignore_tags:
+    - net
+    - bluetooth
